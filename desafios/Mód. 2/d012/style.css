@@ -27,6 +27,7 @@ header > h1 {
     font-size: 8em;
     font-weight: bolder;
     padding: 15px;
+    font-variant: small-caps;
 }
 
 a {
@@ -42,6 +43,11 @@ a:hover {
 main {
     font-family:'Sriracha' ;
     
+}
+
+section {
+    padding-top: 10vh;
+    padding-bottom: 10vh;
 }
 
 main > section {
@@ -60,12 +66,8 @@ section.branco {
     padding: 35px;
 }
 
-.parallax {
-    color: white;
-}
-
-
 content.imagem > p {
+    color: white;
     display: inline-block;
     width: 700px;
     height: 650px;
@@ -79,8 +81,6 @@ section#segundo {
     background-size: cover;
     box-shadow:inset 2px 2px 11px rgba(0, 0, 0, 0.582);
 }
-
-
 
 section#quinto {
     background: wheat url('imagens/background002.jpg') left center no-repeat fixed;
