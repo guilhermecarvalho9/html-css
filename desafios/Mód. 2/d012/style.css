@@ -5,7 +5,6 @@
 * {
     margin: 0px;
     padding: 0px;
-    min-width: 320px;
 }
 
 body {
@@ -24,7 +23,7 @@ header {
 header > h1 {
     text-align: center;
     font-family: 'Passion One', Arial, sans-serif;
-    font-size: 8em;
+    font-size: 10vw;
     font-weight: bolder;
     padding: 15px;
     font-variant: small-caps;
@@ -46,34 +45,26 @@ main {
 }
 
 section {
-    padding-top: 10vh;
-    padding-bottom: 10vh;
-}
-
-main > section {
+    padding-left: 10px;
+    font-size: 3vw;
+    line-height: 2em;
     text-align: left;
-    padding: 35px;
 }
 
 main p {
-    font-size: 2.7em;
-    line-height: 2em;
+    padding-top: 3vh;
+    padding-bottom: 3vh;
 }
 
-section.branco {
-    height: 100vh;
-    width: 94.8%;
-    padding: 35px;
-}
 
-content.imagem > p {
+content.imagem {
     color: white;
     display: inline-block;
-    width: 700px;
-    height: 650px;
     background-color: rgba(0, 0, 0, 0.589);
     padding-left: 10px;
     text-shadow: 1px 3px 1px rgba(0, 0, 0, 0.555);
+    margin-top: 10px;
+    margin-bottom: 10px;
 }
 
 section#segundo {
@@ -89,11 +80,12 @@ section#quinto {
 }
 
 footer {
-    padding: 10px;
+    margin-top: 30px;
+    padding: 7px;
     background-color: black;
     color: white;
     text-align: center;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-weight: normal;
-    font-size: 16px;
+    font-size: 15px;
 }
