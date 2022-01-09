@@ -68,13 +68,13 @@ content.imagem {
 }
 
 section#segundo {
-    background: wheat url('imagens/background001.jpg') left center no-repeat fixed;
+    background: wheat url('imagens/background001.jpg') right center no-repeat fixed;
     background-size: cover;
     box-shadow:inset 2px 2px 11px rgba(0, 0, 0, 0.582);
 }
 
 section#quinto {
-    background: wheat url('imagens/background002.jpg') left center no-repeat fixed;
+    background: wheat url('imagens/background002.jpg') right center no-repeat fixed;
     background-size: cover;
     box-shadow:inset 2px 2px 11px rgba(0, 0, 0, 0.582);
 }
